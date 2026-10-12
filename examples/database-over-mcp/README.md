@@ -9,6 +9,7 @@ capabilities: [mcp, streaming, reasoning]
 models: [grok-4.7]
 env: [XAI_API_KEY]
 icon: database
+video: https://media.x.ai/v1/docs/database-over-mcp-a7f0f45a.mp4
 authors: [Eric Zakariasson]
 date: 2026-10-05
 ---

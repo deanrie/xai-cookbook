@@ -9,6 +9,7 @@ capabilities: [function-calling, streaming, reasoning]
 models: [grok-4.7]
 env: [XAI_API_KEY]
 icon: person
+video: https://media.x.ai/v1/docs/refund-agent-human-approval-5fe14716.mp4
 authors: [Eric Zakariasson]
 date: 2026-10-05
 ---

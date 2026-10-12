@@ -9,6 +9,7 @@ capabilities: [image-understanding, structured-output, streaming, image-generati
 models: [grok-4.7, grok-imagine-image-2.0, grok-imagine-video-1.5]
 env: [XAI_API_KEY]
 icon: clock
+video: https://media.x.ai/v1/docs/photo-to-time-lapse-723cc57a.mp4
 authors: [Eric Zakariasson]
 date: 2026-10-05
 ---

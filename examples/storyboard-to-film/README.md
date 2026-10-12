@@ -9,6 +9,7 @@ capabilities: [structured-output, streaming, image-generation, video-generation,
 models: [grok-4.7, grok-imagine-image-2.0, grok-imagine-video-1.5]
 env: [XAI_API_KEY]
 icon: film
+video: https://media.x.ai/v1/docs/storyboard-to-film-33e91f8a.mp4
 authors: [Eric Zakariasson]
 date: 2026-10-01
 ---

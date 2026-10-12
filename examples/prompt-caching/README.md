@@ -9,6 +9,7 @@ capabilities: [chat, streaming, prompt-caching, compaction, reasoning]
 models: [grok-4.7]
 env: [XAI_API_KEY]
 icon: coins
+video: https://media.x.ai/v1/docs/prompt-caching-0566fcea.mp4
 authors: [Eric Zakariasson]
 date: 2026-10-05
 ---

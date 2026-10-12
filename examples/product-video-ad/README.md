@@ -9,6 +9,7 @@ capabilities: [image-understanding, structured-output, image-generation, video-g
 models: [grok-4.7, grok-imagine-image-2.0, grok-imagine-video-1.5]
 env: [XAI_API_KEY]
 icon: video
+video: https://media.x.ai/v1/docs/product-video-ad-0ce08213.mp4
 authors: [Eric Zakariasson]
 date: 2026-10-01
 ---

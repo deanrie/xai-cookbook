@@ -9,6 +9,7 @@ capabilities: [collections, files, structured-output, streaming]
 models: [grok-4.7]
 env: [XAI_API_KEY, XAI_MANAGEMENT_API_KEY]
 icon: document-search
+video: https://media.x.ai/v1/docs/docs-to-cited-answers-45f01e02.mp4
 authors: [Eric Zakariasson]
 date: 2026-10-05
 ---

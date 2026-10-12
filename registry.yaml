@@ -4,6 +4,7 @@
 - title: Article to Read-Along
   seo_title: 'Read Aloud with Word Highlighting: Text to Speech with the Grok API'
   path: examples/article-to-read-along/README.md
+  video: https://media.x.ai/v1/docs/article-to-read-along-c5421beb.mp4
   icon: text-highlight
   description: Turn any article into audio that highlights each word as it's spoken, using the per-character timestamps from text to speech, and click a word to jump there.
   date: 2026-10-05
@@ -18,6 +19,7 @@
 - title: Live Interpreter
   seo_title: 'Real-Time Voice Translation: Live Interpreter with the Grok API'
   path: examples/live-interpreter/README.md
+  video: https://media.x.ai/v1/docs/live-interpreter-5256c58f.mp4
   icon: translate
   description: Speak one language and hear Grok say it in another a moment later, from a page that connects straight to the realtime voice API with a short-lived token.
   date: 2026-10-05
@@ -33,6 +35,7 @@
 - title: Photo to Talking Character
   seo_title: 'AI Talking Photo: Make a Picture Talk with Grok Imagine'
   path: examples/photo-to-talking-character/README.md
+  video: https://media.x.ai/v1/docs/photo-to-talking-character-1949ac6e.mp4
   icon: photo-person
   description: Make a drawing, a mascot, or a pet photo talk in a voice you pick, and have a second character answer, with Grok Imagine reference-to-video.
   date: 2026-10-05
@@ -48,6 +51,7 @@
 - title: Podcast from a Link
   seo_title: 'AI Podcast Generator: Turn Any Article into a Podcast with the Grok API'
   path: examples/podcast-from-a-link/README.md
+  video: https://media.x.ai/v1/docs/podcast-from-a-link-85364704.mp4
   icon: microphone
   description: Turn an article or a PDF into a two-host podcast episode, and watch it being written and recorded live in a small web app.
   date: 2026-10-01
@@ -64,6 +68,7 @@
 - title: Screenshot to React Component
   seo_title: 'Screenshot to Code: Generate React Components with the Grok API'
   path: examples/screenshot-to-component/README.md
+  video: https://media.x.ai/v1/docs/screenshot-to-component-214ab306.mp4
   icon: code
   description: Turn a screenshot of a UI into a React component styled with Tailwind, then have Grok compare the result with the original and fix what doesn't match.
   date: 2026-10-01
@@ -81,6 +86,7 @@
 - title: Company to Call Brief
   seo_title: 'AI Sales Call Prep: Research an Account with the Grok API'
   path: examples/company-to-call-brief/README.md
+  video: https://media.x.ai/v1/docs/company-to-call-brief-993e33b9.mp4
   icon: briefcase
   description: Prep for a sales call with a one-page brief, as Grok searches the web and 𝕏 and looks up the account through CRM functions that run in your app.
   date: 2026-10-05
@@ -100,6 +106,7 @@
 - title: CSV to Answers
   seo_title: 'AI Data Analyst: Ask Questions about a CSV with the Grok API'
   path: examples/csv-to-answers/README.md
+  video: https://media.x.ai/v1/docs/csv-to-answers-c3b86704.mp4
   icon: histogram
   description: Drop in a CSV and ask questions about it. Grok writes and runs pandas in a sandbox, shows the code it ran, and answers with computed numbers and a chart.
   date: 2026-10-05
@@ -118,6 +125,7 @@
 - title: Database over MCP
   seo_title: 'Chat with Your Database: SQLite MCP Server with the Grok API'
   path: examples/database-over-mcp/README.md
+  video: https://media.x.ai/v1/docs/database-over-mcp-a7f0f45a.mp4
   icon: database
   description: Serve a SQLite database as a small MCP server that only reads, and watch Grok list its tables, read their schemas, and run SQL through it to answer a question.
   date: 2026-10-05
@@ -134,6 +142,7 @@
 - title: Docs to Cited Answers
   seo_title: 'RAG with Citations: Answer from Your Documents with the Grok API'
   path: examples/docs-to-cited-answers/README.md
+  video: https://media.x.ai/v1/docs/docs-to-cited-answers-45f01e02.mp4
   icon: document-search
   description: Ask questions about a folder of documents and get answers that cite the passages they came from, with a metadata filter that decides which documents count.
   date: 2026-10-05
@@ -182,6 +191,7 @@
 - title: Photo to Time-Lapse
   seo_title: 'AI Time-Lapse Generator: Turn a Photo into a Video with Grok Imagine'
   path: examples/photo-to-time-lapse/README.md
+  video: https://media.x.ai/v1/docs/photo-to-time-lapse-723cc57a.mp4
   icon: clock
   description: Turn one photo into a time-lapse, like a street through the four seasons, by editing it for each stage and pinning every edit in one Grok Imagine video.
   date: 2026-10-05
@@ -200,6 +210,7 @@
 - title: Product Photo to Video Ad
   seo_title: 'AI Video Ad Generator: Product Photo to Video with Grok Imagine'
   path: examples/product-video-ad/README.md
+  video: https://media.x.ai/v1/docs/product-video-ad-0ce08213.mp4
   icon: video
   description: Turn one product photo into a vertical video ad with a voiceover, as Grok writes the brief, places the product in three scenes, picks one, and animates it.
   date: 2026-10-01
@@ -218,6 +229,7 @@
 - title: Progressive Tool Disclosure
   seo_title: 'Tool Search for AI Agents: Load Tools on Demand with the Grok API'
   path: examples/progressive-tool-disclosure/README.md
+  video: https://media.x.ai/v1/docs/progressive-tool-disclosure-676f2989.mp4
   icon: toolbox
   description: Give Grok 203 tools from a made-up company's eight work apps, show it only their names, and let it load the few each question needs with tool search.
   date: 2026-10-05
@@ -234,6 +246,7 @@
 - title: Prompt Caching
   seo_title: 'Prompt Caching: Cut the Cost of Long Chats with the Grok API'
   path: examples/prompt-caching/README.md
+  video: https://media.x.ai/v1/docs/prompt-caching-0566fcea.mp4
   icon: coins
   description: Play one 30-message chat three ways to see what the prompt cache saves, how the time at the top of the system prompt breaks it, and what compaction costs.
   date: 2026-10-05
@@ -252,6 +265,7 @@
 - title: Prompt Injection Defenses
   seo_title: 'Prompt Injection Defense: Protect AI Agents with the Grok API'
   path: examples/prompt-injection-defenses/README.md
+  video: https://media.x.ai/v1/docs/prompt-injection-defenses-72293228.mp4
   icon: shield-check
   description: Watch poisoned pages try to make an agent leak private data, see each of four defenses miss an attack another catches, and stop all ten with all four on.
   date: 2026-10-05
@@ -269,6 +283,7 @@
 - title: Reasoning Effort Evals
   seo_title: 'LLM Evals: Find the Right Reasoning Effort with the Grok API'
   path: examples/reasoning-effort-evals/README.md
+  video: https://media.x.ai/v1/docs/reasoning-effort-evals-e4b4b34e.mp4
   icon: sliders
   description: Run a prompt's test cases at every reasoning effort, grade the answers with code checks and a judge, and find the cheapest effort that's still good enough.
   date: 2026-10-05
@@ -285,6 +300,7 @@
 - title: Receipts to Spreadsheet
   seo_title: 'AI Receipt Scanner: Receipts to a Spreadsheet with the Grok API'
   path: examples/receipts-to-spreadsheet/README.md
+  video: https://media.x.ai/v1/docs/receipts-to-spreadsheet-73f20474.mp4
   icon: receipt
   description: Turn receipt photos and PDF invoices into a spreadsheet that adds up, with Grok reading each one twice and flagging the cells where the reads disagree.
   date: 2026-10-05
@@ -303,6 +319,7 @@
 - title: Reviews to Themes
   seo_title: 'AI Review Analysis: Find Themes in Customer Feedback with the Grok API'
   path: examples/reviews-to-themes/README.md
+  video: https://media.x.ai/v1/docs/reviews-to-themes-39992d5e.mp4
   icon: star
   description: Turn a thousand app reviews into ranked themes with counts, trends, and quotes by labeling every review in one Batch API job.
   date: 2026-10-05
@@ -321,6 +338,7 @@
 - title: Storyboard to Short Film
   seo_title: 'AI Short Film Generator: Premise to Video with Grok Imagine'
   path: examples/storyboard-to-film/README.md
+  video: https://media.x.ai/v1/docs/storyboard-to-film-33e91f8a.mp4
   icon: film
   description: Turn a one-line premise into a four-shot short film with Grok Imagine keyframes, image-to-video, and narration, and watch it being made in a small web app.
   date: 2026-10-01
@@ -339,6 +357,7 @@
 - title: Topics to Morning Briefing
   seo_title: 'AI News Briefing: Daily Audio from 𝕏 and the Web with the Grok API'
   path: examples/topics-to-morning-briefing/README.md
+  video: https://media.x.ai/v1/docs/topics-to-morning-briefing-977578f4.mp4
   icon: newspaper
   description: Turn a few topics into a two-minute spoken briefing from 𝕏 and the web, with Grok skipping the stories it already told you about and a cost cap on every run.
   date: 2026-10-05
@@ -372,6 +391,7 @@
 - title: 𝕏 Post to Fact-Check
   seo_title: 'AI Fact-Checker: Check Posts on 𝕏 with the Grok API'
   path: examples/x-post-fact-check/README.md
+  video: https://media.x.ai/v1/docs/x-post-fact-check-ac243a0b.mp4
   icon: checkmark-circle
   description: Paste a link to a post on 𝕏, and Grok checks each claim on the web and on 𝕏 at the same time and writes a note where every sentence cites a source.
   date: 2026-10-05
@@ -391,6 +411,7 @@
 - title: 𝕏 Sentiment Tracker
   seo_title: 'Social Media Sentiment Tracker: Posts on 𝕏 with the Grok API'
   path: examples/x-sentiment-tracker/README.md
+  video: https://media.x.ai/v1/docs/x-sentiment-tracker-aea77bff.mp4
   icon: line-chart
   description: Score the sentiment about any topic from live 𝕏 posts with Grok's X Search tool, on a dashboard with a score for every post and the sentiment day by day.
   date: 2026-10-01
@@ -408,6 +429,7 @@
 - title: Bug Report to Fix
   seo_title: 'AI Coding Agent: Turn a Bug Report into a Fix with the Grok API'
   path: examples/bug-report-to-fix/README.md
+  video: https://media.x.ai/v1/docs/bug-report-to-fix-5a8217f9.mp4
   icon: bug
   description: Describe a bug in a small repo, and watch Grok reproduce it with a failing test, fix it, and rerun the tests, checking every command before it runs.
   date: 2026-10-05
@@ -427,6 +449,7 @@
 - title: Meeting to Action Items
   seo_title: 'AI Meeting Notes: Live Transcripts and Action Items with the Grok API'
   path: examples/meeting-to-action-items/README.md
+  video: https://media.x.ai/v1/docs/meeting-to-action-items-298d7471.mp4
   icon: clipboard-check
   description: Caption a call live by speaker, keep a running list of decisions and action items, and ask questions whose answers link to the moment in the transcript.
   date: 2026-10-05
@@ -444,6 +467,7 @@
 - title: Refund Agent with Human Approval
   seo_title: 'Human-in-the-Loop AI Agent: Approve Refunds with the Grok API'
   path: examples/refund-agent-human-approval/README.md
+  video: https://media.x.ai/v1/docs/refund-agent-human-approval-5fe14716.mp4
   icon: person
   description: Build a support agent that stops before a refund, waits for a person to approve it, and resumes the same run from a stored response, even after a restart.
   date: 2026-10-05
@@ -460,6 +484,7 @@
 - title: Video Dubbing
   seo_title: 'AI Video Dubbing: Dub a Video into Another Language with the Grok API'
   path: examples/video-dubbing/README.md
+  video: https://media.x.ai/v1/docs/video-dubbing-70e931ba.mp4
   icon: sound
   description: Dub a video into another language, with each line timed to the original speech, shortened by Grok when it runs long, and mixed over the original background.
   date: 2026-10-05

@@ -9,6 +9,7 @@ capabilities: [x-data, web-search, structured-output, streaming, image-understan
 models: [grok-4.7, grok-4.20-multi-agent]
 env: [XAI_API_KEY]
 icon: checkmark-circle
+video: https://media.x.ai/v1/docs/x-post-fact-check-ac243a0b.mp4
 authors: [Eric Zakariasson]
 date: 2026-10-05
 ---

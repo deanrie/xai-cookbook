@@ -9,6 +9,7 @@ capabilities: [video-generation, text-to-speech]
 models: [grok-imagine-video-1.5]
 env: [XAI_API_KEY]
 icon: photo-person
+video: https://media.x.ai/v1/docs/photo-to-talking-character-1949ac6e.mp4
 authors: [Eric Zakariasson]
 date: 2026-10-05
 ---

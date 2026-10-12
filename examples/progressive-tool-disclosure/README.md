@@ -9,6 +9,7 @@ capabilities: [function-calling, tool-search, streaming]
 models: [grok-4.7]
 env: [XAI_API_KEY]
 icon: toolbox
+video: https://media.x.ai/v1/docs/progressive-tool-disclosure-676f2989.mp4
 authors: [Eric Zakariasson]
 date: 2026-10-05
 ---

@@ -8,6 +8,7 @@ languages: [typescript]
 capabilities: [text-to-speech]
 env: [XAI_API_KEY]
 icon: text-highlight
+video: https://media.x.ai/v1/docs/article-to-read-along-c5421beb.mp4
 authors: [Eric Zakariasson]
 date: 2026-10-05
 ---

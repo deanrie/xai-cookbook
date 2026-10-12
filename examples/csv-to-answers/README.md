@@ -9,6 +9,7 @@ capabilities: [code-execution, files, structured-output, streaming, reasoning]
 models: [grok-4.7]
 env: [XAI_API_KEY]
 icon: histogram
+video: https://media.x.ai/v1/docs/csv-to-answers-c3b86704.mp4
 authors: [Eric Zakariasson]
 date: 2026-10-05
 ---

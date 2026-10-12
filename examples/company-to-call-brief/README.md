@@ -9,6 +9,7 @@ capabilities: [function-calling, web-search, x-data, structured-output, streamin
 models: [grok-4.7]
 env: [XAI_API_KEY]
 icon: briefcase
+video: https://media.x.ai/v1/docs/company-to-call-brief-993e33b9.mp4
 authors: [Eric Zakariasson]
 date: 2026-10-05
 ---

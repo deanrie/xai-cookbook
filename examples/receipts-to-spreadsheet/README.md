@@ -9,6 +9,7 @@ capabilities: [image-understanding, files, structured-output, streaming, batch]
 models: [grok-4.7, grok-4.3]
 env: [XAI_API_KEY]
 icon: receipt
+video: https://media.x.ai/v1/docs/receipts-to-spreadsheet-73f20474.mp4
 authors: [Eric Zakariasson]
 date: 2026-10-05
 ---

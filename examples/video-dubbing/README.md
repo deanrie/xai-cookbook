@@ -9,6 +9,7 @@ capabilities: [speech-to-text, structured-output, streaming, reasoning, text-to-
 models: [grok-4.7, grok-voice-transcribe-2.0]
 env: [XAI_API_KEY]
 icon: sound
+video: https://media.x.ai/v1/docs/video-dubbing-70e931ba.mp4
 authors: [Eric Zakariasson]
 date: 2026-10-05
 ---

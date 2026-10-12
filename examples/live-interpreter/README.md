@@ -9,6 +9,7 @@ capabilities: [voice, text-to-speech]
 models: [grok-voice-think-fast-2.0]
 env: [XAI_API_KEY]
 icon: translate
+video: https://media.x.ai/v1/docs/live-interpreter-5256c58f.mp4
 authors: [Eric Zakariasson]
 date: 2026-10-05
 ---

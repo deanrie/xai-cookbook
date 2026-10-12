@@ -9,6 +9,7 @@ capabilities: [structured-output, streaming, text-to-speech]
 models: [grok-4.7]
 env: [XAI_API_KEY]
 icon: microphone
+video: https://media.x.ai/v1/docs/podcast-from-a-link-85364704.mp4
 authors: [Eric Zakariasson]
 date: 2026-10-01
 ---

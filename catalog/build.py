@@ -133,6 +133,8 @@ def render_registry(examples: list[dict]) -> str:
         entry["path"] = f"{base}/{example.get('notebook', 'README.md')}"
         if "cover" in example:
             entry["image"] = f"{base}/{example['cover']}"
+        if "video" in example:
+            entry["video"] = example["video"]
         if "icon" in example:
             entry["icon"] = example["icon"]
         entry["description"] = example["description"]

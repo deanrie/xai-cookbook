@@ -9,6 +9,7 @@ models: [grok-4.7]
 env: [XAI_API_KEY]
 notebook: python/guide.ipynb # only for notebooks; remove otherwise
 cover: cover.jpg             # optional
+video: https://…/demo.mp4    # optional: a short MP4 of it running, played on its docs.x.ai page
 authors: [Your Name]
 date: 2026-01-01
 ---

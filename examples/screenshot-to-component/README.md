@@ -9,6 +9,7 @@ capabilities: [image-understanding, structured-output, streaming, reasoning]
 models: [grok-4.7]
 env: [XAI_API_KEY]
 icon: code
+video: https://media.x.ai/v1/docs/screenshot-to-component-214ab306.mp4
 authors: [Eric Zakariasson]
 date: 2026-10-01
 ---

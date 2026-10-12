@@ -50,6 +50,11 @@
       "description": "Cover image, relative to the example folder.",
       "type": "string"
     },
+    "video": {
+      "description": "A short MP4 of the example running, as an https URL. docs.x.ai plays it under the title of the example's page.",
+      "type": "string",
+      "pattern": "^https://\\S+\\.mp4$"
+    },
     "icon": {
       "description": "Icon on the example's card on docs.x.ai. The docs site maps each name to an icon in its design system.",
       "enum": [

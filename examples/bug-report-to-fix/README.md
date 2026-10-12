@@ -9,6 +9,7 @@ capabilities: [shell, function-calling, streaming, reasoning, prompt-caching, co
 models: [grok-4.7]
 env: [XAI_API_KEY]
 icon: bug
+video: https://media.x.ai/v1/docs/bug-report-to-fix-5a8217f9.mp4
 authors: [Eric Zakariasson]
 date: 2026-10-05
 ---

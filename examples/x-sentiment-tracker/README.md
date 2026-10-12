@@ -9,6 +9,7 @@ capabilities: [x-data, structured-output, reasoning, streaming]
 models: [grok-4.7]
 env: [XAI_API_KEY]
 icon: line-chart
+video: https://media.x.ai/v1/docs/x-sentiment-tracker-aea77bff.mp4
 authors: [Eric Zakariasson]
 date: 2026-10-01
 ---

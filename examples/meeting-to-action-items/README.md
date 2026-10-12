@@ -9,6 +9,7 @@ capabilities: [speech-to-text, structured-output, streaming, text-to-speech]
 models: [grok-voice-transcribe-2.0, grok-4.7]
 env: [XAI_API_KEY]
 icon: clipboard-check
+video: https://media.x.ai/v1/docs/meeting-to-action-items-298d7471.mp4
 authors: [Eric Zakariasson]
 date: 2026-10-05
 ---

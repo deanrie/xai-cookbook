@@ -9,6 +9,7 @@ capabilities: [reasoning, structured-output, batch]
 models: [grok-4.7, grok-4.3]
 env: [XAI_API_KEY]
 icon: sliders
+video: https://media.x.ai/v1/docs/reasoning-effort-evals-e4b4b34e.mp4
 authors: [Eric Zakariasson]
 date: 2026-10-05
 ---
