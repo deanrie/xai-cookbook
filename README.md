@@ -2,6 +2,10 @@
 
 Runnable examples for building with Grok: a TypeScript app that turns articles into podcast episodes, complete voice agent apps for the browser, phone calls, iOS, and Android, and a Python notebook that analyzes live posts from 𝕏. Each example teaches one idea end to end, and the code is meant to be copied.
 
+https://github.com/user-attachments/assets/89b8b288-5d25-4424-a0a1-2348de64f31c
+
+The 25 apps built on the [xAI TypeScript SDK](https://www.npmjs.com/package/@xai-official/sdk), each running its sample, sped up.
+
 New to the API? Start with the [quickstart](https://docs.x.ai/developers/quickstart) in the xAI docs, browse the [models](https://docs.x.ai/developers/models), and get an API key from the [xAI Console](https://console.x.ai).
 
 ## Start here
