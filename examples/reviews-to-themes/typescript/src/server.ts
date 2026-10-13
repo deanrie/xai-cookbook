@@ -57,7 +57,7 @@ async function streamRun(params: URLSearchParams, res: ServerResponse): Promise<
     if (!res.writableEnded) res.write(`event: ${event}\ndata: ${JSON.stringify(data)}\n\n`);
   };
 
-  // Stop waiting and stop making API calls if the page is closed. A batch keeps running at SpaceXAI, so the page
+  // Stop waiting and stop making API calls if the page is closed. A batch keeps running at SpaceXSI, so the page
   // can pick it up again later.
   const abort = new AbortController();
   res.on("close", () => {

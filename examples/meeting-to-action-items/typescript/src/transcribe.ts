@@ -30,7 +30,7 @@ type ServerEvent =
 
 // Opens a streaming transcription of 16-bit mono PCM and turns its results into lines, one per turn.
 export async function transcribe(sampleRate: number, on: TranscriptEvents = {}, signal?: AbortSignal): Promise<Transcriber> {
-  if (!process.env.XAI_API_KEY) throw new Error("Set XAI_API_KEY to your SpaceXAI API key.");
+  if (!process.env.XAI_API_KEY) throw new Error("Set XAI_API_KEY to your SpaceXSI API key.");
   const params = new URLSearchParams({
     model: "grok-voice-transcribe-2.0",
     encoding: "pcm",

@@ -58,7 +58,7 @@ export async function readSource(source: string, signal?: AbortSignal): Promise<
   if (existsSync(source)) {
     return uploadPdf(await openAsBlob(source), basename(source), signal);
   }
-  const response = await fetch(source, { headers: { "user-agent": "Mozilla/5.0 (SpaceXAI cookbook)" }, signal });
+  const response = await fetch(source, { headers: { "user-agent": "Mozilla/5.0 (SpaceXSI cookbook)" }, signal });
   if (!response.ok) throw new Error(`Couldn't fetch ${source}: ${response.status}`);
   if (response.headers.get("content-type")?.includes("pdf")) {
     return uploadPdf(await response.blob(), "source.pdf", signal);

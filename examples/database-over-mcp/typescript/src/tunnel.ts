@@ -29,7 +29,7 @@ export async function openTunnel(port: number): Promise<{ url: string; close: ()
   }
 }
 
-// SpaceXAI can't reach the tunnel until its hostname is in public DNS, a second or two after cloudflared
+// SpaceXSI can't reach the tunnel until its hostname is in public DNS, a second or two after cloudflared
 // connects. Asking a public resolver also keeps this machine from caching the miss.
 async function waitForDns(hostname: string): Promise<void> {
   const resolver = new Resolver();

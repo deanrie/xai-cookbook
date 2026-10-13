@@ -38,7 +38,7 @@ const name = basename(resolve(folder));
 
 const { collection_id } = await manage<{ collection_id: string }>("POST", "/collections", {
   collection_name: name,
-  collection_description: `Documents from ${name}, uploaded by the SpaceXAI Cookbook's Docs to Cited Answers example`,
+  collection_description: `Documents from ${name}, uploaded by the SpaceXSI Cookbook's Docs to Cited Answers example`,
   field_definitions: FIELDS,
   chunk_configuration: CHUNKS,
 });

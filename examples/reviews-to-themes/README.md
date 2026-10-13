@@ -54,7 +54,7 @@ npm start -- reviews.csv
 
 That saves the themes to `output/<name>/` as `themes.md` and `themes.json`, with every review and its themes in `reviews.csv`. Add `--model` to choose the model that labels the reviews, `--live` to send the requests yourself instead of in a batch, and `--new` to start over.
 
-The batch runs at SpaceXAI, not in your process, so it keeps going when your process stops. Its ID is saved to `run.json` in the output folder as soon as it's created. If the terminal version stops while it waits, run the same command again, and it picks up the batch where it left off. In the web app, closing the page stops the server from waiting, and when you open the page again it offers to pick up the batch.
+The batch runs at SpaceXSI, not in your process, so it keeps going when your process stops. Its ID is saved to `run.json` in the output folder as soon as it's created. If the terminal version stops while it waits, run the same command again, and it picks up the batch where it left off. In the web app, closing the page stops the server from waiting, and when you open the page again it offers to pick up the batch.
 
 Labeling is the bulk of the work: 40 requests of 25 reviews for the sample, or 400 for 10,000 reviews. The app sends them in a batch with `grok-4.3` by default, and you can choose `grok-4.20-0309-non-reasoning` or `grok-4.20-0309-reasoning` instead. [Batch requests are discounted](https://docs.x.ai/developers/pricing#batch-api-pricing) for those three models, but the bigger win is that they don't count toward your rate limits. Live requests count toward your team's limit on tokens per minute, so thousands of them get 429 errors and have to wait.
 

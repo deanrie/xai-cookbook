@@ -138,7 +138,7 @@ export async function analyze(dir: string, source: string, reviews: Review[], mo
   return finish(dir, run, on, signal);
 }
 
-// Picks up a saved batch run. The batch kept running at SpaceXAI while nothing was waiting for it, so its results
+// Picks up a saved batch run. The batch kept running at SpaceXSI while nothing was waiting for it, so its results
 // are there to read.
 export async function resume(dir: string, on: RunEvents = {}, signal?: AbortSignal): Promise<Result> {
   const run = await loadRun(dir);
@@ -291,7 +291,7 @@ async function waitForBatch(run: Run, on: RunEvents, signal?: AbortSignal): Prom
   let failed = 0;
   while (true) {
     const batch = await client.batches.get(run.batch!.id, { signal });
-    if (batch.cancel_by_xai_message) throw new Error(`SpaceXAI cancelled the batch: ${batch.cancel_by_xai_message}`);
+    if (batch.cancel_by_xai_message) throw new Error(`SpaceXSI cancelled the batch: ${batch.cancel_by_xai_message}`);
     const { num_requests, num_pending, num_success, num_error } = batch.state;
     if (num_success + num_error > read.size) {
       // Reading the results starts from the first one every time, so the ones already read are skipped.

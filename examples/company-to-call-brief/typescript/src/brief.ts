@@ -23,7 +23,7 @@ export type Brief = {
   talking_points: string[];
   risks: string[];
 };
-// A search Grok ran on SpaceXAI's servers, with the URLs it returned when the API reports them.
+// A search Grok ran on SpaceXSI's servers, with the URLs it returned when the API reports them.
 export type Search = { tool: "web" | "x"; kind: string; query: string; sources: string[] };
 export type Totals = {
   requests: number;
@@ -91,7 +91,7 @@ const BRIEF_SCHEMA = {
 };
 
 // Researches the company with the CRM functions and the searches, then writes the brief and saves it to output/.
-// Reports each step as it happens, so callers can show which ran in your app and which on SpaceXAI's servers.
+// Reports each step as it happens, so callers can show which ran in your app and which on SpaceXSI's servers.
 export async function prepareBrief(company: string, on: BriefEvents = {}, signal?: AbortSignal): Promise<Result> {
   const today = new Date().toISOString().slice(0, 10);
   const monthAgo = new Date(Date.now() - 30 * DAY_MS).toISOString().slice(0, 10);
@@ -135,7 +135,7 @@ export async function prepareBrief(company: string, on: BriefEvents = {}, signal
         search.sources.forEach(cite);
         on.search?.(search);
       })
-      // SpaceXAI stops at a call to one of your functions and hands it to you. Only what the function returns
+      // SpaceXSI stops at a call to one of your functions and hands it to you. Only what the function returns
       // goes back to Grok, in the next request.
       .on("client_tool_call", (call) => {
         if (call.type !== "function_call") return;
@@ -150,7 +150,7 @@ export async function prepareBrief(company: string, on: BriefEvents = {}, signal
     on.usage?.({ ...totals });
     if (outputs.length) {
       // toInput() carries Grok's encrypted reasoning and search results into the next request, so nothing has to
-      // be stored on SpaceXAI's servers between requests.
+      // be stored on SpaceXSI's servers between requests.
       input.push(...response.toInput(), ...outputs);
       continue;
     }

@@ -13,7 +13,7 @@ const { dropped, totals, file } = await prepareBrief(company, {
     const turns = index === 1 ? `max_turns ${MAX_TURNS}` : "max_turns starts over";
     console.log(`\n${styleText("bold", `Request ${index}`)} ${styleText("dim", `· ${turns}`)}`);
   },
-  search: (search) => console.log(`  ${styleText("blue", "SpaceXAI")}  ${search.kind}: ${search.query}`),
+  search: (search) => console.log(`  ${styleText("blue", "SpaceXSI")}  ${search.kind}: ${search.query}`),
   lookup: (lookup) => {
     lookups++;
     const withheld = lookup.withheld ? styleText("dim", ` (${lookup.withheld.toLowerCase()} stay in your app)`) : "";
@@ -22,7 +22,7 @@ const { dropped, totals, file } = await prepareBrief(company, {
   draft: () => {
     if (writing) return;
     writing = true;
-    console.log(`  ${styleText("blue", "SpaceXAI")}  Writing the brief`);
+    console.log(`  ${styleText("blue", "SpaceXSI")}  Writing the brief`);
   },
 });
 

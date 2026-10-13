@@ -29,7 +29,7 @@ export async function readArticle(source: string, signal?: AbortSignal): Promise
     const text = await readFile(source, "utf8");
     return /<p[\s>]/i.test(text) ? fromHtml(text) : fromText(text);
   }
-  const response = await fetch(source, { headers: { "user-agent": "Mozilla/5.0 (SpaceXAI cookbook)" }, signal });
+  const response = await fetch(source, { headers: { "user-agent": "Mozilla/5.0 (SpaceXSI cookbook)" }, signal });
   if (!response.ok) throw new Error(`Couldn't fetch ${source}: ${response.status}`);
   return fromHtml(await response.text());
 }

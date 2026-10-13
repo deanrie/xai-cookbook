@@ -6,7 +6,7 @@
 <meta name="color-scheme" content="light">
 <title>Reviews to Themes</title>
 <style>
-  /* The look every SpaceXAI Cookbook page shares, after x.ai. */
+  /* The look every SpaceXSI Cookbook page shares, after x.ai. */
   :root {
     --bg: #fff;
     --card: #f9f8f6;
@@ -433,7 +433,7 @@
       $("label-detail").textContent = run.mode === "batch" ? `${run.model} in a batch` : `${run.model}, 8 requests at a time`;
       $("meter-total").textContent = `of ${total.toLocaleString()} reviews labeled`;
       $("waiting").innerHTML = run.mode === "batch"
-        ? `<dl><dt>Batch</dt><dd id="batch-id">Starting</dd><dt>Requests</dt><dd id="batch-file">${Math.ceil(total / 25)} of 25 reviews each</dd><dt>Model</dt><dd>${escapeHtml(run.model)}</dd></dl><p>SpaceXAI runs the requests in the background, and each one's labels show up here as soon as it finishes. A batch can take up to 24 hours, though one this size often finishes within a minute. You can close the page and pick it up later.</p>`
+        ? `<dl><dt>Batch</dt><dd id="batch-id">Starting</dd><dt>Requests</dt><dd id="batch-file">${Math.ceil(total / 25)} of 25 reviews each</dd><dt>Model</dt><dd>${escapeHtml(run.model)}</dd></dl><p>SpaceXSI runs the requests in the background, and each one's labels show up here as soon as it finishes. A batch can take up to 24 hours, though one this size often finishes within a minute. You can close the page and pick it up later.</p>`
         : `<dl><dt>Requests</dt><dd>${Math.ceil(total / 25)} of 25 reviews each, 8 at a time</dd><dt>Model</dt><dd>${escapeHtml(run.model)}</dd></dl><p>Each request's labels show up here as soon as it comes back.</p>`;
     });
     on("step", ({ step }) => setStep(step));

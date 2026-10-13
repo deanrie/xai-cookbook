@@ -29,7 +29,7 @@ export type AskEvents = {
 };
 
 // Builds the sample database, serves it over MCP on `port`, and gives the server a public URL, because
-// SpaceXAI connects to MCP servers from its own servers.
+// SpaceXSI connects to MCP servers from its own servers.
 export async function openStore(port: number): Promise<Store> {
   makeStore(DATABASE);
   const server = await startMcpServer(DATABASE, port);
@@ -44,7 +44,7 @@ export async function openStore(port: number): Promise<Store> {
   };
 }
 
-// Asks Grok a question about the store. SpaceXAI calls the MCP server itself, so there's no tool loop
+// Asks Grok a question about the store. SpaceXSI calls the MCP server itself, so there's no tool loop
 // here: the stream reports each call as it starts and finishes.
 export async function ask(question: string, store: Store, on: AskEvents = {}, signal?: AbortSignal): Promise<Answer> {
   // A token for this answer only. The server turns it away once Grok is done.

@@ -12,7 +12,7 @@ export const QUERY_TIMEOUT_MS = 5_000;
 const PROTOCOL_VERSIONS = ["2025-06-18", "2025-03-26", "2024-11-05"];
 const QUERY_SCRIPT = new URL("./query.ts", import.meta.url);
 
-// A request SpaceXAI made to the server, so callers can show the server's side of a run.
+// A request SpaceXSI made to the server, so callers can show the server's side of a run.
 export type ServerRequest = { method: string; tool?: string; ms: number; error?: string };
 export type McpServer = {
   // Each answer gets a token of its own, which stops working once Grok is done.

@@ -7,7 +7,7 @@ const MCP_PORT = Number(process.env.MCP_PORT ?? 3001);
 
 console.log(styleText("dim", "Starting the MCP server and opening a tunnel to it"));
 const store = await openStore(MCP_PORT);
-console.log(styleText("dim", `SpaceXAI reaches it at ${store.url}\n`));
+console.log(styleText("dim", `SpaceXSI reaches it at ${store.url}\n`));
 console.log(styleText("bold", question));
 
 const started = Date.now();

@@ -23,7 +23,7 @@ A customer emails about a refund. The agent looks up the order and the refund po
 ## What you'll learn
 
 - Stop an agent before a function call that can't be undone, and save what it needs to continue: the ID of the response it stored, the ID of the call, and the call's arguments
-- Resume the run later with `previous_response_id` and the call's output, without sending the conversation again, because `store: true` keeps it on SpaceXAI's servers for 30 days
+- Resume the run later with `previous_response_id` and the call's output, without sending the conversation again, because `store: true` keeps it on SpaceXSI's servers for 30 days
 - Use the call ID as an idempotency key, so an approved refund runs once even if Approve is clicked twice or the server crashes partway
 - Keep an audit log of who asked for, approved, and rejected each refund
 - Continue a finished run when the customer writes back, from the same stored response, and test the agent against an angry customer that Grok plays

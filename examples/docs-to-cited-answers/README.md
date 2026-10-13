@@ -34,7 +34,7 @@ Upload a folder of documents to a collection and ask questions about them. A sea
 You need Node.js 22.13 or later and two keys:
 
 - `XAI_API_KEY`, your API key, which uploads files, searches, and asks Grok.
-- `XAI_MANAGEMENT_API_KEY`, a management key, which creates the collection and adds the documents to it. Creating collections and adding documents goes through the [Management API](https://docs.x.ai/developers/management-api-guide), which doesn't accept API keys. Make one in the [SpaceXAI Console](https://console.x.ai) under Settings, then Management Keys. Give it the `AddFileToCollection` permission, and the permissions in the Collections Endpoint group for creating collections and reading their documents. Make it in the same team as your API key, because the files are uploaded with one key and added to the collection with the other. Only `npm run ingest` uses it.
+- `XAI_MANAGEMENT_API_KEY`, a management key, which creates the collection and adds the documents to it. Creating collections and adding documents goes through the [Management API](https://docs.x.ai/developers/management-api-guide), which doesn't accept API keys. Make one in the [SpaceXSI Console](https://console.x.ai) under Settings, then Management Keys. Give it the `AddFileToCollection` permission, and the permissions in the Collections Endpoint group for creating collections and reading their documents. Make it in the same team as your API key, because the files are uploaded with one key and added to the collection with the other. Only `npm run ingest` uses it.
 
 Put both in `.env` at the root of the repo, or export them. Then upload the sample handbook:
 
