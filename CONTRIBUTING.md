@@ -1,4 +1,4 @@
-# Contributing to xAI Cookbooks
+# Contributing to SpaceXSI Cookbooks
 
 Thanks for your interest in contributing to `xai-cookbook`! We’re excited to see your ideas and have some guidelines to ensure high quality and value.
 
@@ -32,7 +32,7 @@ Before submitting, ask:
    - **Dependencies**:
      - Minimize dependencies.
      - Use `%pip install <package1> <package2>`.
-     - Commercial packages are fine but must not be promotional or imply xAI endorsement.
+     - Commercial packages are fine but must not be promotional or imply SpaceXSI endorsement.
    - Run `uv run catalog/build.py` to add your example to the list in `README.md` and to `registry.yaml`. Don't edit either by hand.
 5. **Commit Changes**: Use clear messages, e.g., `git commit -m "Add text summarization cookbook"`.
 6. **Push to Your Fork**: `git push origin your-branch-name`

@@ -25,7 +25,7 @@ One or two sentences on what this example shows and when you'd use it.
 
 ## Run it
 
-Say what's needed beyond an xAI API key, then give the exact commands. Put each language's code in a folder named after it, such as `python/` or `typescript/`, and keep data and images next to the code that uses them.
+Say what's needed beyond a SpaceXSI API key, then give the exact commands. Put each language's code in a folder named after it, such as `python/` or `typescript/`, and keep data and images next to the code that uses them.
 
 ## How it works
 

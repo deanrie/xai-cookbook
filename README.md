@@ -1,16 +1,16 @@
-# xAI Cookbook
+# SpaceXSI Cookbook
 
 Runnable examples for building with Grok: a TypeScript app that turns articles into podcast episodes, complete voice agent apps for the browser, phone calls, iOS, and Android, and a Python notebook that analyzes live posts from 𝕏. Each example teaches one idea end to end, and the code is meant to be copied.
 
 https://github.com/user-attachments/assets/89b8b288-5d25-4424-a0a1-2348de64f31c
 
-The 25 apps built on the [xAI TypeScript SDK](https://www.npmjs.com/package/@xai-official/sdk), each running its sample, sped up.
+The 25 apps built on the [SpaceXSI TypeScript SDK](https://www.npmjs.com/package/@xai-official/sdk), each running its sample, sped up.
 
-New to the API? Start with the [quickstart](https://docs.x.ai/developers/quickstart) in the xAI docs, browse the [models](https://docs.x.ai/developers/models), and get an API key from the [xAI Console](https://console.x.ai).
+New to the API? Start with the [quickstart](https://docs.x.ai/developers/quickstart) in the SpaceXSI docs, browse the [models](https://docs.x.ai/developers/models), and get an API key from the [SpaceXSI Console](https://console.x.ai).
 
 ## Start here
 
-- **TypeScript:** [Podcast from a Link](examples/podcast-from-a-link/), which turns any article into a two-host episode with a few calls to the xAI SDK.
+- **TypeScript:** [Podcast from a Link](examples/podcast-from-a-link/), which turns any article into a two-host episode with a few calls to the SpaceXSI SDK.
 - **Voice:** [Web Voice Agent](examples/voice-agent-web/), a browser app you can talk to.
 - **𝕏 data:** [Real-Time Sentiment Analysis on 𝕏](examples/x-sentiment-analysis/), a notebook that searches 𝕏 live and scores sentiment. It keeps its outputs, so you can read it on GitHub without running anything.
 
@@ -69,7 +69,7 @@ The apps are for learning and aren't production-ready as-is.
 
 ## Run the TypeScript apps
 
-Each app in a `typescript/` folder is its own npm project built on the [xAI TypeScript SDK](https://www.npmjs.com/package/@xai-official/sdk). You'll need Node.js 22.13 or newer and an API key from the [xAI Console](https://console.x.ai). Copy `.env.example` to `.env` at the root of the repo and add your key, then:
+Each app in a `typescript/` folder is its own npm project built on the [SpaceXSI TypeScript SDK](https://www.npmjs.com/package/@xai-official/sdk). You'll need Node.js 22.13 or newer and an API key from the [SpaceXSI Console](https://console.x.ai). Copy `.env.example` to `.env` at the root of the repo and add your key, then:
 
 ```bash
 cd examples/podcast-from-a-link/typescript
@@ -81,7 +81,7 @@ Each app's README lists the arguments it takes. Apps that generate images or vid
 
 ## Run the notebooks
 
-You'll need Python 3.12 or newer, [uv](https://github.com/astral-sh/uv), and an API key from the [xAI Console](https://console.x.ai).
+You'll need Python 3.12 or newer, [uv](https://github.com/astral-sh/uv), and an API key from the [SpaceXSI Console](https://console.x.ai).
 
 1. Clone this repo:
    ```bash
@@ -120,7 +120,7 @@ load_dotenv()
 XAI_API_KEY = os.getenv("XAI_API_KEY")
 ```
 
-If a key ever leaks, revoke it in the xAI Console and create a new one.
+If a key ever leaks, revoke it in the SpaceXSI Console and create a new one.
 
 ## Contributing
 
